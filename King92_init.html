@@ -1,418 +1,418 @@
-e=campaignTrail_temp
+e = campaignTrail_temp
 if (!e.done) {
-e.done = true;
+  e.done = true;
 }
 campaignTrail_temp.election_json = [
-    {
-        "model": "campaign_trail.election",
-        "pk": 15,
-        "fields": {
-            "year": 1992,
-            "summary": "<div style='overflow-y:scroll;height:200px;'><p>30 years of struggle. Since the day you thought that the Lord has decided to bring you to his side, you have devoted yourself to achieving progress in the Congress of the American people. As you saw the cogs of government firsthand and the corruption seeping through the carcass of the American experiment, you saw it as your mission to break on through. The struggles in government never stopped. As you reach a decade of Reaganism, you feel like you are pushing against an immovable wall as the party of Lincoln is determined to undermine any and all progress in the land.<br><br>You've never faltered, but as Congress is proving incapable against conservative presidents, maybe you could be the one to slay the dragon? A black man, a socialist, a civil rights activist. It may not be what America wants, but maybe it is what America needs more than ever.</p>",
-            "image_url": "https://media.npr.org/assets/img/2016/06/10/mlk_slideshow_01_slide-a08b68622b3a5d052d3b9cd2ba6ce4b2ac5318ef.jpg",
-            "winning_electoral_vote_number": 270,
-            "advisor_url": "https://i.imgur.com/An0R3kI.png",
-            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Books and Links</h4>Peter Goldman - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B012HU7SZA/amhius20-20\" target=\"_blank\">The Quest for the Presidency, 1988</a></br>L.A. Times, November 10, 1988 - <a href=\"http://articles.latimes.com/1988-11-10/news/mn-299_1_dukakis-lost-reelection\" target=\"_blank\">How Presidential Race Was Won-and Lost : Michael S. Dukakis</a></br>L.A. Times, November 10, 1988 - <a href=\"http://articles.latimes.com/1988-11-10/news/mn-302_1_george-bush\" target=\"_blank\">How Presidential Race Was Won--and Lost : George Bush</a></br><a href=\"http://www.usnews.com/news/articles/2008/01/17/the-photo-op-that-tanked\" target=\"_blank\">Michael Dukakis: The Photo Op That Tanked</a>",
-            "has_visits": 1,
-            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
-            "creator": "Dan Bryan",
-            "display_year": "King92"
-        }
+  {
+    "model": "campaign_trail.election",
+    "pk": 15,
+    "fields": {
+      "year": 1992,
+      "summary": "<div style='overflow-y:scroll;height:200px;'><p>30 years of struggle. Since the day you thought that the Lord has decided to bring you to his side, you have devoted yourself to achieving progress in the Congress of the American people. As you saw the cogs of government firsthand and the corruption seeping through the carcass of the American experiment, you saw it as your mission to break on through. The struggles in government never stopped. As you reach a decade of Reaganism, you feel like you are pushing against an immovable wall as the party of Lincoln is determined to undermine any and all progress in the land.<br><br>You've never faltered, but as Congress is proving incapable against conservative presidents, maybe you could be the one to slay the dragon? A black man, a socialist, a civil rights activist. It may not be what America wants, but maybe it is what America needs more than ever.</p>",
+      "image_url": "https://media.npr.org/assets/img/2016/06/10/mlk_slideshow_01_slide-a08b68622b3a5d052d3b9cd2ba6ce4b2ac5318ef.jpg",
+      "winning_electoral_vote_number": 270,
+      "advisor_url": "https://i.imgur.com/An0R3kI.png",
+      "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Books and Links</h4>Peter Goldman - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B012HU7SZA/amhius20-20\" target=\"_blank\">The Quest for the Presidency, 1988</a></br>L.A. Times, November 10, 1988 - <a href=\"http://articles.latimes.com/1988-11-10/news/mn-299_1_dukakis-lost-reelection\" target=\"_blank\">How Presidential Race Was Won-and Lost : Michael S. Dukakis</a></br>L.A. Times, November 10, 1988 - <a href=\"http://articles.latimes.com/1988-11-10/news/mn-302_1_george-bush\" target=\"_blank\">How Presidential Race Was Won--and Lost : George Bush</a></br><a href=\"http://www.usnews.com/news/articles/2008/01/17/the-photo-op-that-tanked\" target=\"_blank\">Michael Dukakis: The Photo Op That Tanked</a>",
+      "has_visits": 1,
+      "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+      "creator": "Dan Bryan",
+      "display_year": "King92"
     }
+  }
 ]
 
 campaignTrail_temp.candidate_json = [
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 152,
-        "fields": {
-            "first_name": "George",
-            "last_name": "Bush",
-            "election": 15,
-            "party": "Republican",
-            "state": "Texas",
-            "priority": 1,
-            "description": "'",
-            "color_hex": "#2b2bce",
-            "secondary_color_hex": "#bfbff0",
-            "is_active": 0,
-            "image_url": "https://i.postimg.cc/QN450048/bushy.jpg",
-            "electoral_victory_message": "",
-            "electoral_loss_message": "",
-            "no_electoral_majority_message": "",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 153,
-        "fields": {
-            "first_name": "Martin Luther",
-            "last_name": "King Jr.",
-            "election": 15,
-            "party": "Democrat",
-            "state": "Georgia",
-            "priority": 2,
-            "description": "<div style='overflow-y:scroll;height:200px;'><i>''The time is always right to do what is right.''</i><p>Martin Luther King Jr. is probably the most well-known African-American politician in American history, with a long career in activism and public service. He is regarded as the leader of the civil rights movement, making powerful speeches such as ''I Have a Dream'' and ''I've Been to the Mountaintop,'' as well as writing his ''Letter from a Birmingham Jail.'' After surviving multiple assassination attempts, he began his political career in 1972 by taking Georgia's 5th Congressional district, serving the Atlanta area ever since. He has fought for economic and racial equality throughout his years in public service.<br><br>In order to win the election, he will likely need to moderate on some issues, or hope enough people get tired of the 12 years of Republican rule. Either way, many expect a heavy lift for MLK to make his Dream complete and become the first African-American president of the United States.</p>",
-            "color_hex": "#c11d1d",
-            "secondary_color_hex": "#ecbbbb",
-            "is_active": 1,
-            "image_url": "https://i.postimg.cc/g288Dqmv/MLKjr92.jpg",
-            "electoral_victory_message": "",
-            "electoral_loss_message": "",
-            "no_electoral_majority_message": "",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 154,
-        "fields": {
-            "first_name": "Ross",
-            "last_name": "Perot",
-            "election": 15,
-            "party": "Libertarian",
-            "state": "Texas",
-            "priority": 3,
-            "description": "'",
-            "color_hex": "#c9bd2a",
-            "secondary_color_hex": "#eeebbf",
-            "is_active": 0,
-            "image_url": "https://cdn.britannica.com/44/3444-004-B29A664B/Ross-Perot-debate-1992.jpg",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 159,
-        "fields": {
-            "first_name": "Jay",
-            "last_name": "Rockefeller",
-            "election": 15,
-            "party": "Democrat",
-            "state": "West Virginia",
-            "priority": 8,
-            "description": "'",
-            "color_hex": "#c11d1d",
-            "secondary_color_hex": "#ecbbbb",
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/px7wStX.jpeg",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<i>There is a difference between being a political force, or a political apparent force or a potential force, and between a real discourse or a real argument.</i><p>Senator Rockefeller hails from West Virginia as a member of the prestigious Rockefeller Family. Considering his previous tenure as Governor in that state, he has become very popular in his state where otherwise you would’ve likely underperformed past Democrats. He is a broadly mainstream Democrat, and is a true political insider with a populist and labor edge, which would require a balancing act to avoid alienating either your base or the broader electorate. But if you want to run on healthcare and blue collar issues while maintaining party leadership, Jay Rockefeller could be a good choice both in and outside of Appalachia as long as you don't mention the environment.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 160,
-        "fields": {
-            "first_name": "Ann",
-            "last_name": "Richards",
-            "election": 15,
-            "party": "Democrat",
-            "state": "Texas",
-            "priority": 9,
-            "description": "'",
-            "color_hex": "#c11d1d",
-            "secondary_color_hex": "#ecbbbb",
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/KhifGoE.jpeg",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<i>Well, let me tell you, any conservative that's unhappy with George Bush warms my heart, in any way that they can wake up and smell the coffee would be really great.</i><p>The woman from Waco has served as Governor of Texas since 1990, and has been a trailblazer for women's rights. She is also well-known for her one-liners and Southern Grandma charm. While she may be a strong populist and advocate like you, she is pro-NAFTA and some may argue having a black man and a woman on the same ticket is a bit much. Nonetheless, Texas is also the President's home state, so although he has an inherent advantage in the state, Ann can help you switch it to the winning team if your appeal is strong enough.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 161,
-        "fields": {
-            "first_name": "Al",
-            "last_name": "Gore",
-            "election": 15,
-            "party": "Democrat",
-            "state": "Tennessee",
-            "priority": 10,
-            "description": "'",
-            "color_hex": "#c11d1d",
-            "secondary_color_hex": "#ecbbbb",
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/om0Nqs7.jpeg",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<i>George Bush taking credit for the wall coming down is like the rooster taking credit for the sun rising.</i><p>Senator Al Gore has served Tennessee since 1985 as the son of another Senator, just like President Bush. One of the Atari Democrats, he has made the environment and technology integral to his DNA in public service. Even though he's a moderate on the core social issues, he is still well-respected by most wings of the Democratic Party after his 1988 campaign. Though his robotic attitude has its detractors, he will help strength your southern appeal, particularly in his home state of Tennessee. Through keeping the Southern third-way Democrats in line while you energize the African-American vote, it could be easy to win almost anywhere in this country. </p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 162,
-        "fields": {
-            "first_name": "Tom",
-            "last_name": "Harkin",
-            "election": 15,
-            "party": "Democrat",
-            "state": "Iowa",
-            "priority": 11,
-            "description": "'",
-            "color_hex": "#c11d1d",
-            "secondary_color_hex": "#ecbbbb",
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/fq5gwv3.jpeg",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<i>The Gulf War was like teenage sex. We got in too soon and out too soon.</i><p>Tom has served Iowa in the Senate since 1985, and had few chances in the primaries against two other populist candidates. However, considering his vast popularity with the old left in America, taking him would be seen by some as a return to the “Farmer-Labor” days. He can help double down on many key issues, including on social issues, opposition to NAFTA, and particularly his sponsoring of the Americans with Disabilities Act of 1990. While Iowa was one of Michael Dukakis's strongest states four years ago, the farming crisis doesn't matter nowadays, and therefore, Iowa and the Upper Midwest is right back in battleground territory. Everywhere else however, it would give your campaign a social democratic brand.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 50000,
-        "fields": {
-            "first_name": "Joe",
-            "last_name": "Biden",
-            "election": 15,
-            "party": "Democrat",
-            "state": "Delaware",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#c11d1d",
-            "secondary_color_hex": "#ecbbbb",
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/xG5XDo4.jpeg",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<i>I exaggerate when I'm angry, but I've never gone around telling people things that aren't true about me.</i><p>Biden is as conservative of a running mate you could accept. He has served 20 years in the Senate, and is known to be fairly moderate with a track record of working across party lines. He is notably tough on crime, and somewhat strong on foreign policy, even in a post-Cold War era while still being a strong union supporter. Overall, he would be the best choice if you wish to broadly moderate your image this year. Geographically, he could be a huge asset in his home state of Delaware, as well as its swing state neighbors of Pennsylvania and New Jersey. He is also known to be gaffe-prone, which could be bad news, especially considering Dan Quayle’s unpopularity. Still, if unity is the way forward, Joe is your man.</p>",
-            "candidate_score": 1,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 50001,
-        "fields": {
-            "first_name": "Paul",
-            "last_name": "Tsongas",
-            "election": 15,
-            "party": "Democrat",
-            "state": "Massachusetts",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#c11d1d",
-            "secondary_color_hex": "#ecbbbb",
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/fCtmChu.jpeg",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<i>This land, this water, this air, this planet - this is our legacy to our young.</i><p>Much like Michael Dukakis, Senator Tsongas is a liberal Greek son of Massachusetts, serving one term from 1979 to 1985. He was also a rival of yours in the Democratic primaries, and could help unite the party after the primary. He is fairly liberal on most issues, but his fiscal conservatism could help seduce a broader electorate without abandoning core issues. Although he doesn’t give you much of a geographical boost, he would grant a more diffuse support across the nation as a competent set of hands for the White House. Keep in mind that his lymphoma diagnosis causing him to retire from the Senate could be a prominent issue in the campaign. Still, health issues didn't stop Kennedy in 1960, and neither should it stop you from emulating his campaign.</p>",
-            "candidate_score": 1,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 50002,
-        "fields": {
-            "first_name": "Jerry",
-            "last_name": "Brown",
-            "election": 15,
-            "party": "Democrat",
-            "state": "California",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#c11d1d",
-            "secondary_color_hex": "#ecbbbb",
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/3xgF5C1.jpeg",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<i>We have to deal with where we are. We have to create cooperatives, we have to create intentional communities, we have to work for local cooperation where we are.</i><p>“Nemo dat non habet.” No man gives what he does not have. For Jerry Brown, this had been his maxim for his entire career from his time as Governor to his two runs for president. While his intellectual, high-class style clashes with his activist and blue-collar supporters, he has brought a syncretism of those struggles in his campaign. While going with Jerry Brown will be seen as doubling down on your progressive positions, He would also solidify your chances of making such a campaign work from the support he'll grant in the Pacific and NAFTA-skeptical states. If we need revolution and not reform, he would be the perfect vice president.</p>",
-            "candidate_score": 1,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 50003,
-        "fields": {
-            "first_name": "James",
-            "last_name": "Blanchard",
-            "election": 15,
-            "party": "Democrat",
-            "state": "Michigan",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#c11d1d",
-            "secondary_color_hex": "#ecbbbb",
-            "is_active": 0,
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/James_Blanchard_%28MI%29_%28cropped%29.png/220px-James_Blanchard_%28MI%29_%28cropped%29.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<i>This is our last big chance in this century to turn America around.</i><p>James Blanchard is the former Governor of Michigan. Despite his defeat in a massive upset by John Engler in 1990, he is credited for leading one of the most dramatic economic turnarounds in the history of state government. Though a supporter of NAFTA, he is also very strong on economic protectionism, which will help you with blue-collar workers. If you want to run on the economy, James Blanchard could be one of your best choices. Furthermore, Michigan is expected to be one of the most competitive states in this election, and his geographical advantage could prove to be vital there and across the Midwest. He is also one of the most broadly inoffensive running mates, which could limit controversies of all kind.</p>",
-            "candidate_score": 1,
-            "running_mate": true
-        }
+  {
+    "model": "campaign_trail.candidate",
+    "pk": 152,
+    "fields": {
+      "first_name": "George",
+      "last_name": "Bush",
+      "election": 15,
+      "party": "Republican",
+      "state": "Texas",
+      "priority": 1,
+      "description": "'",
+      "color_hex": "#2b2bce",
+      "secondary_color_hex": "#bfbff0",
+      "is_active": 0,
+      "image_url": "https://i.postimg.cc/QN450048/bushy.jpg",
+      "electoral_victory_message": "",
+      "electoral_loss_message": "",
+      "no_electoral_majority_message": "",
+      "description_as_running_mate": "'",
+      "candidate_score": 1,
+      "running_mate": false
     }
+  },
+  {
+    "model": "campaign_trail.candidate",
+    "pk": 153,
+    "fields": {
+      "first_name": "Martin Luther",
+      "last_name": "King Jr.",
+      "election": 15,
+      "party": "Democrat",
+      "state": "Georgia",
+      "priority": 2,
+      "description": "<div style='overflow-y:scroll;height:200px;'><i>''The time is always right to do what is right.''</i><p>Martin Luther King Jr. is probably the most well-known African-American politician in American history, with a long career in activism and public service. He is regarded as the leader of the civil rights movement, making powerful speeches such as ''I Have a Dream'' and ''I've Been to the Mountaintop,'' as well as writing his ''Letter from a Birmingham Jail.'' After surviving multiple assassination attempts, he began his political career in 1972 by taking Georgia's 5th Congressional district, serving the Atlanta area ever since. He has fought for economic and racial equality throughout his years in public service.<br><br>In order to win the election, he will likely need to moderate on some issues, or hope enough people get tired of the 12 years of Republican rule. Either way, many expect a heavy lift for MLK to make his Dream complete and become the first African-American president of the United States.</p>",
+      "color_hex": "#c11d1d",
+      "secondary_color_hex": "#ecbbbb",
+      "is_active": 1,
+      "image_url": "https://i.postimg.cc/g288Dqmv/MLKjr92.jpg",
+      "electoral_victory_message": "",
+      "electoral_loss_message": "",
+      "no_electoral_majority_message": "",
+      "description_as_running_mate": "'",
+      "candidate_score": 1,
+      "running_mate": false
+    }
+  },
+  {
+    "model": "campaign_trail.candidate",
+    "pk": 154,
+    "fields": {
+      "first_name": "Ross",
+      "last_name": "Perot",
+      "election": 15,
+      "party": "Libertarian",
+      "state": "Texas",
+      "priority": 3,
+      "description": "'",
+      "color_hex": "#c9bd2a",
+      "secondary_color_hex": "#eeebbf",
+      "is_active": 0,
+      "image_url": "https://cdn.britannica.com/44/3444-004-B29A664B/Ross-Perot-debate-1992.jpg",
+      "electoral_victory_message": "'",
+      "electoral_loss_message": "'",
+      "no_electoral_majority_message": "'",
+      "description_as_running_mate": "'",
+      "candidate_score": 1,
+      "running_mate": false
+    }
+  },
+
+  {
+    "model": "campaign_trail.candidate",
+    "pk": 159,
+    "fields": {
+      "first_name": "Jay",
+      "last_name": "Rockefeller",
+      "election": 15,
+      "party": "Democrat",
+      "state": "West Virginia",
+      "priority": 8,
+      "description": "'",
+      "color_hex": "#c11d1d",
+      "secondary_color_hex": "#ecbbbb",
+      "is_active": 0,
+      "image_url": "https://i.imgur.com/px7wStX.jpeg",
+      "electoral_victory_message": "'",
+      "electoral_loss_message": "'",
+      "no_electoral_majority_message": "'",
+      "description_as_running_mate": "<i>There is a difference between being a political force, or a political apparent force or a potential force, and between a real discourse or a real argument.</i><p>Senator Rockefeller hails from West Virginia as a member of the prestigious Rockefeller Family. Considering his previous tenure as Governor in that state, he has become very popular in his state where otherwise you would’ve likely underperformed past Democrats. He is a broadly mainstream Democrat, and is a true political insider with a populist and labor edge, which would require a balancing act to avoid alienating either your base or the broader electorate. But if you want to run on healthcare and blue collar issues while maintaining party leadership, Jay Rockefeller could be a good choice both in and outside of Appalachia as long as you don't mention the environment.</p>",
+      "candidate_score": 0,
+      "running_mate": true
+    }
+  },
+  {
+    "model": "campaign_trail.candidate",
+    "pk": 160,
+    "fields": {
+      "first_name": "Ann",
+      "last_name": "Richards",
+      "election": 15,
+      "party": "Democrat",
+      "state": "Texas",
+      "priority": 9,
+      "description": "'",
+      "color_hex": "#c11d1d",
+      "secondary_color_hex": "#ecbbbb",
+      "is_active": 0,
+      "image_url": "https://i.imgur.com/KhifGoE.jpeg",
+      "electoral_victory_message": "'",
+      "electoral_loss_message": "'",
+      "no_electoral_majority_message": "'",
+      "description_as_running_mate": "<i>Well, let me tell you, any conservative that's unhappy with George Bush warms my heart, in any way that they can wake up and smell the coffee would be really great.</i><p>The woman from Waco has served as Governor of Texas since 1990, and has been a trailblazer for women's rights. She is also well-known for her one-liners and Southern Grandma charm. While she may be a strong populist and advocate like you, she is pro-NAFTA and some may argue having a black man and a woman on the same ticket is a bit much. Nonetheless, Texas is also the President's home state, so although he has an inherent advantage in the state, Ann can help you switch it to the winning team if your appeal is strong enough.</p>",
+      "candidate_score": 0,
+      "running_mate": true
+    }
+  },
+  {
+    "model": "campaign_trail.candidate",
+    "pk": 161,
+    "fields": {
+      "first_name": "Al",
+      "last_name": "Gore",
+      "election": 15,
+      "party": "Democrat",
+      "state": "Tennessee",
+      "priority": 10,
+      "description": "'",
+      "color_hex": "#c11d1d",
+      "secondary_color_hex": "#ecbbbb",
+      "is_active": 0,
+      "image_url": "https://i.imgur.com/om0Nqs7.jpeg",
+      "electoral_victory_message": "'",
+      "electoral_loss_message": "'",
+      "no_electoral_majority_message": "'",
+      "description_as_running_mate": "<i>George Bush taking credit for the wall coming down is like the rooster taking credit for the sun rising.</i><p>Senator Al Gore has served Tennessee since 1985 as the son of another Senator, just like President Bush. One of the Atari Democrats, he has made the environment and technology integral to his DNA in public service. Even though he's a moderate on the core social issues, he is still well-respected by most wings of the Democratic Party after his 1988 campaign. Though his robotic attitude has its detractors, he will help strength your southern appeal, particularly in his home state of Tennessee. Through keeping the Southern third-way Democrats in line while you energize the African-American vote, it could be easy to win almost anywhere in this country. </p>",
+      "candidate_score": 0,
+      "running_mate": true
+    }
+  },
+  {
+    "model": "campaign_trail.candidate",
+    "pk": 162,
+    "fields": {
+      "first_name": "Tom",
+      "last_name": "Harkin",
+      "election": 15,
+      "party": "Democrat",
+      "state": "Iowa",
+      "priority": 11,
+      "description": "'",
+      "color_hex": "#c11d1d",
+      "secondary_color_hex": "#ecbbbb",
+      "is_active": 0,
+      "image_url": "https://i.imgur.com/fq5gwv3.jpeg",
+      "electoral_victory_message": "'",
+      "electoral_loss_message": "'",
+      "no_electoral_majority_message": "'",
+      "description_as_running_mate": "<i>The Gulf War was like teenage sex. We got in too soon and out too soon.</i><p>Tom has served Iowa in the Senate since 1985, and had few chances in the primaries against two other populist candidates. However, considering his vast popularity with the old left in America, taking him would be seen by some as a return to the “Farmer-Labor” days. He can help double down on many key issues, including on social issues, opposition to NAFTA, and particularly his sponsoring of the Americans with Disabilities Act of 1990. While Iowa was one of Michael Dukakis's strongest states four years ago, the farming crisis doesn't matter nowadays, and therefore, Iowa and the Upper Midwest is right back in battleground territory. Everywhere else however, it would give your campaign a social democratic brand.</p>",
+      "candidate_score": 0,
+      "running_mate": true
+    }
+  },
+  {
+    "model": "campaign_trail.candidate",
+    "pk": 50000,
+    "fields": {
+      "first_name": "Joe",
+      "last_name": "Biden",
+      "election": 15,
+      "party": "Democrat",
+      "state": "Delaware",
+      "priority": 1,
+      "description": "<p>Put description here</p>",
+      "color_hex": "#c11d1d",
+      "secondary_color_hex": "#ecbbbb",
+      "is_active": 0,
+      "image_url": "https://i.imgur.com/xG5XDo4.jpeg",
+      "electoral_victory_message": "This guy wins!",
+      "electoral_loss_message": "This guy loses!",
+      "no_electoral_majority_message": "We all win?",
+      "description_as_running_mate": "<i>I exaggerate when I'm angry, but I've never gone around telling people things that aren't true about me.</i><p>Biden is as conservative of a running mate you could accept. He has served 20 years in the Senate, and is known to be fairly moderate with a track record of working across party lines. He is notably tough on crime, and somewhat strong on foreign policy, even in a post-Cold War era while still being a strong union supporter. Overall, he would be the best choice if you wish to broadly moderate your image this year. Geographically, he could be a huge asset in his home state of Delaware, as well as its swing state neighbors of Pennsylvania and New Jersey. He is also known to be gaffe-prone, which could be bad news, especially considering Dan Quayle’s unpopularity. Still, if unity is the way forward, Joe is your man.</p>",
+      "candidate_score": 1,
+      "running_mate": true
+    }
+  },
+  {
+    "model": "campaign_trail.candidate",
+    "pk": 50001,
+    "fields": {
+      "first_name": "Paul",
+      "last_name": "Tsongas",
+      "election": 15,
+      "party": "Democrat",
+      "state": "Massachusetts",
+      "priority": 1,
+      "description": "<p>Put description here</p>",
+      "color_hex": "#c11d1d",
+      "secondary_color_hex": "#ecbbbb",
+      "is_active": 0,
+      "image_url": "https://i.imgur.com/fCtmChu.jpeg",
+      "electoral_victory_message": "This guy wins!",
+      "electoral_loss_message": "This guy loses!",
+      "no_electoral_majority_message": "We all win?",
+      "description_as_running_mate": "<i>This land, this water, this air, this planet - this is our legacy to our young.</i><p>Much like Michael Dukakis, Senator Tsongas is a liberal Greek son of Massachusetts, serving one term from 1979 to 1985. He was also a rival of yours in the Democratic primaries, and could help unite the party after the primary. He is fairly liberal on most issues, but his fiscal conservatism could help seduce a broader electorate without abandoning core issues. Although he doesn’t give you much of a geographical boost, he would grant a more diffuse support across the nation as a competent set of hands for the White House. Keep in mind that his lymphoma diagnosis causing him to retire from the Senate could be a prominent issue in the campaign. Still, health issues didn't stop Kennedy in 1960, and neither should it stop you from emulating his campaign.</p>",
+      "candidate_score": 1,
+      "running_mate": true
+    }
+  },
+  {
+    "model": "campaign_trail.candidate",
+    "pk": 50002,
+    "fields": {
+      "first_name": "Jerry",
+      "last_name": "Brown",
+      "election": 15,
+      "party": "Democrat",
+      "state": "California",
+      "priority": 1,
+      "description": "<p>Put description here</p>",
+      "color_hex": "#c11d1d",
+      "secondary_color_hex": "#ecbbbb",
+      "is_active": 0,
+      "image_url": "https://i.imgur.com/3xgF5C1.jpeg",
+      "electoral_victory_message": "This guy wins!",
+      "electoral_loss_message": "This guy loses!",
+      "no_electoral_majority_message": "We all win?",
+      "description_as_running_mate": "<i>We have to deal with where we are. We have to create cooperatives, we have to create intentional communities, we have to work for local cooperation where we are.</i><p>“Nemo dat non habet.” No man gives what he does not have. For Jerry Brown, this had been his maxim for his entire career from his time as Governor to his two runs for president. While his intellectual, high-class style clashes with his activist and blue-collar supporters, he has brought a syncretism of those struggles in his campaign. While going with Jerry Brown will be seen as doubling down on your progressive positions, He would also solidify your chances of making such a campaign work from the support he'll grant in the Pacific and NAFTA-skeptical states. If we need revolution and not reform, he would be the perfect vice president.</p>",
+      "candidate_score": 1,
+      "running_mate": true
+    }
+  },
+  {
+    "model": "campaign_trail.candidate",
+    "pk": 50003,
+    "fields": {
+      "first_name": "James",
+      "last_name": "Blanchard",
+      "election": 15,
+      "party": "Democrat",
+      "state": "Michigan",
+      "priority": 1,
+      "description": "<p>Put description here</p>",
+      "color_hex": "#c11d1d",
+      "secondary_color_hex": "#ecbbbb",
+      "is_active": 0,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/James_Blanchard_%28MI%29_%28cropped%29.png/220px-James_Blanchard_%28MI%29_%28cropped%29.png",
+      "electoral_victory_message": "This guy wins!",
+      "electoral_loss_message": "This guy loses!",
+      "no_electoral_majority_message": "We all win?",
+      "description_as_running_mate": "<i>This is our last big chance in this century to turn America around.</i><p>James Blanchard is the former Governor of Michigan. Despite his defeat in a massive upset by John Engler in 1990, he is credited for leading one of the most dramatic economic turnarounds in the history of state government. Though a supporter of NAFTA, he is also very strong on economic protectionism, which will help you with blue-collar workers. If you want to run on the economy, James Blanchard could be one of your best choices. Furthermore, Michigan is expected to be one of the most competitive states in this election, and his geographical advantage could prove to be vital there and across the Midwest. He is also one of the most broadly inoffensive running mates, which could limit controversies of all kind.</p>",
+      "candidate_score": 1,
+      "running_mate": true
+    }
+  }
 ]
 
 campaignTrail_temp.running_mate_json = [
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 101,
-        "fields": {
-            "candidate": 153,
-            "running_mate": 159
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 102,
-        "fields": {
-            "candidate": 153,
-            "running_mate": 160
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 103,
-        "fields": {
-            "candidate": 153,
-            "running_mate": 161
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 104,
-        "fields": {
-            "candidate": 153,
-            "running_mate": 162
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 120849,
-        "fields": {
-            "candidate": 153,
-            "running_mate": 50000
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 158205,
-        "fields": {
-            "candidate": 153,
-            "running_mate": 50003
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 172134,
-        "fields": {
-            "candidate": 153,
-            "running_mate": 50002
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 144992,
-        "fields": {
-            "candidate": 153,
-            "running_mate": 50001
-        }
+  {
+    "model": "campaign_trail.running_mate",
+    "pk": 101,
+    "fields": {
+      "candidate": 153,
+      "running_mate": 159
     }
+  },
+  {
+    "model": "campaign_trail.running_mate",
+    "pk": 102,
+    "fields": {
+      "candidate": 153,
+      "running_mate": 160
+    }
+  },
+  {
+    "model": "campaign_trail.running_mate",
+    "pk": 103,
+    "fields": {
+      "candidate": 153,
+      "running_mate": 161
+    }
+  },
+  {
+    "model": "campaign_trail.running_mate",
+    "pk": 104,
+    "fields": {
+      "candidate": 153,
+      "running_mate": 162
+    }
+  },
+  {
+    "model": "campaign_trail.running_mate",
+    "pk": 120849,
+    "fields": {
+      "candidate": 153,
+      "running_mate": 50000
+    }
+  },
+  {
+    "model": "campaign_trail.running_mate",
+    "pk": 158205,
+    "fields": {
+      "candidate": 153,
+      "running_mate": 50003
+    }
+  },
+  {
+    "model": "campaign_trail.running_mate",
+    "pk": 172134,
+    "fields": {
+      "candidate": 153,
+      "running_mate": 50002
+    }
+  },
+  {
+    "model": "campaign_trail.running_mate",
+    "pk": 144992,
+    "fields": {
+      "candidate": 153,
+      "running_mate": 50001
+    }
+  }
 ]
 
 campaignTrail_temp.credits = "Environmental_Cap104"
 
 campaignTrail_temp.global_parameter_json = [
-    {
-        "model": "campaign_trail.global_parameter",
-        "pk": 1,
-        "fields": {
-            "vote_variable": 1.125,
-            "max_swing": 0.12,
-            "start_point": 0.94,
-            "candidate_issue_weight": 10,
-            "running_mate_issue_weight": 3,
-            "issue_stance_1_max": -0.71,
-            "issue_stance_2_max": -0.3,
-            "issue_stance_3_max": -0.125,
-            "issue_stance_4_max": 0.125,
-            "issue_stance_5_max": 0.3,
-            "issue_stance_6_max": 0.71,
-            "global_variance": 0.01,
-            "state_variance": 0.005,
-            "question_count": 35,
-            "default_map_color_hex": "#C9C9C9",
-            "no_state_map_color_hex": "#999999"
-        }
+  {
+    "model": "campaign_trail.global_parameter",
+    "pk": 1,
+    "fields": {
+      "vote_variable": 1.125,
+      "max_swing": 0.12,
+      "start_point": 0.94,
+      "candidate_issue_weight": 10,
+      "running_mate_issue_weight": 3,
+      "issue_stance_1_max": -0.71,
+      "issue_stance_2_max": -0.3,
+      "issue_stance_3_max": -0.125,
+      "issue_stance_4_max": 0.125,
+      "issue_stance_5_max": 0.3,
+      "issue_stance_6_max": 0.71,
+      "global_variance": 0.01,
+      "state_variance": 0.005,
+      "question_count": 35,
+      "default_map_color_hex": "#C9C9C9",
+      "no_state_map_color_hex": "#999999"
     }
+  }
 ]
 
 campaignTrail_temp.opponents_default_json = [
-    {
-        "election": 15,
-        "candidates": [
-            152,
-            153,
-            154
-        ]
-    }
+  {
+    "election": 15,
+    "candidates": [
+      152,
+      153,
+      154
+    ]
+  }
 ]
 
 campaignTrail_temp.opponents_weighted_json = [
-    {
-        "election": 15,
-        "candidates": [
-            152,
-            153,
-            154
-        ]
-    }
+  {
+    "election": 15,
+    "candidates": [
+      152,
+      153,
+      154
+    ]
+  }
 ]
 
 campaignTrail_temp.temp_election_list = [
-    {
-        "id": 15,
-        "year": 1988,
-        "is_premium": 0,
-        "display_year": "King92"
-    }
+  {
+    "id": 15,
+    "year": 1988,
+    "is_premium": 0,
+    "display_year": "King92"
+  }
 ]
 
 jet_data = {
-    "headerColor": "#200fa3",
-    "windowColor": "#bdbfff",
-    "containerColor": "#a80000",
-    "innerWindowColor": "#ffffff",
-    "bannerImageUrl": "https://i.imgur.com/n16YtnF.png",
-    "backgroundImageUrl": "https://i.imgur.com/1qedChl.jpeg",
-    "endingTextColor": "#000000",
-    "customQuote": "\"Injustice anywhere is a threat to justice everywhere.\" - Martin Luther King Jr",
-    "gameTitle": "THE KING TRAIL"
+  "headerColor": "#200fa3",
+  "windowColor": "#bdbfff",
+  "containerColor": "#a80000",
+  "innerWindowColor": "#ffffff",
+  "bannerImageUrl": "https://i.imgur.com/n16YtnF.png",
+  "backgroundImageUrl": "https://i.imgur.com/1qedChl.jpeg",
+  "endingTextColor": "#000000",
+  "customQuote": "\"Injustice anywhere is a threat to justice everywhere.\" - Martin Luther King Jr",
+  "gameTitle": "THE KING TRAIL"
 }
 
 //#startcode
@@ -505,36 +505,39 @@ e.creditsPage = () => {
   changeGameDisp(true);
   var spacer = document.createElement("amongusspacerthisisntarealelement");
   spacer.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
-  document
-    .getElementsByClassName("inner_window_w_desc")[0]
-    .children[1].appendChild(spacer);
-    changeGameDisp(true);
-    var menuHeader = document.createElement("div");
-    menuHeader.classList.add("inner_window_front");
-    menuHeader.innerHTML = `<h1 style='font-family: "Times New Roman";'><font color='#0496f7'>Credits</font></h1>`;
-    menuHeader.id = "SOTUheader";
-    menuHeader.style = "height: 50px;background-color:#2d2d2d";
-    var newMenu = document.createElement("div");
-    newMenu.classList.add("inner_window_front");
-    newMenu.id = "SOTUmenu";
-    newMenu.style = `height:260px;background-color:#2d2d2d;color:white;overflow-y: scroll;`;
 
-    newMenu.innerHTML = credits_html;
-    let z = document.getElementById("game_window");
-    var backButton = document.createElement("button");
-    backButton.style =
-      "position: relative; bottom: -13px; left: -380px; width: 150px; height: 80px;font-size:40px;padding-top:5px;padding-left:8px";
-    backButton.id = "backSOTUBtn";
-    backButton.innerHTML = `<b>BACK</b>`;
-    backButton.onclick = function () {
-      document.getElementById("SOTUheader").remove();
-      document.getElementById("SOTUmenu").remove();
-      document.getElementById("backSOTUBtn").remove();
-      changeGameDisp(false);
-    };
-    z.appendChild(menuHeader);
-    z.appendChild(newMenu);
-    z.appendChild(backButton);
+  var innerDesc = document.getElementsByClassName("inner_window_w_desc")[0];
+  if (innerDesc) {
+    var target = innerDesc.children[1] || innerDesc;
+    target.appendChild(spacer);
+  }
+
+  var menuHeader = document.createElement("div");
+  menuHeader.classList.add("inner_window_front");
+  menuHeader.innerHTML = `<h1 style='font-family: "Times New Roman";'><font color='#0496f7'>Credits</font></h1>`;
+  menuHeader.id = "SOTUheader";
+  menuHeader.style = "height: 50px;background-color:#2d2d2d";
+  var newMenu = document.createElement("div");
+  newMenu.classList.add("inner_window_front");
+  newMenu.id = "SOTUmenu";
+  newMenu.style = `height:260px;background-color:#2d2d2d;color:white;overflow-y: scroll;`;
+
+  newMenu.innerHTML = credits_html;
+  let z = document.getElementById("game_window");
+  var backButton = document.createElement("button");
+  backButton.style =
+    "position: relative; bottom: -13px; left: -380px; width: 150px; height: 80px;font-size:40px;padding-top:5px;padding-left:8px";
+  backButton.id = "backSOTUBtn";
+  backButton.innerHTML = `<b>BACK</b>`;
+  backButton.onclick = function () {
+    document.getElementById("SOTUheader").remove();
+    document.getElementById("SOTUmenu").remove();
+    document.getElementById("backSOTUBtn").remove();
+    changeGameDisp(false);
+  };
+  z.appendChild(menuHeader);
+  z.appendChild(newMenu);
+  z.appendChild(backButton);
 
 }
 
@@ -543,14 +546,14 @@ e.credits = "<button onclick='e.creditsPage()'>Credits</button>"
 
 // Initialise custom music
 
-$("#music_player")[0].children[0].style.display="none"
-$("#music_player")[0].children[1].style.display="none"
+$("#music_player")[0].children[0].style.display = "none"
+$("#music_player")[0].children[1].style.display = "none"
 
-document.getElementById("modLoadReveal").style.display="none"
-document.getElementById("modloaddiv").style.display="none"
+document.getElementById("modLoadReveal").style.display = "none"
+document.getElementById("modloaddiv").style.display = "none"
 
 musicBox = document.getElementById("music_player")
-musicBox.style.display=""
+musicBox.style.display = ""
 
 var trackSel;
 e = campaignTrail_temp
@@ -563,11 +566,11 @@ toTime = (seconds) => {
 }
 
 generateTime = () => {
-    // Get the audio element
-    var audio = document.getElementById("campaigntrailmusic");
+  // Get the audio element
+  var audio = document.getElementById("campaigntrailmusic");
 
-    timeTracker = document.createElement("div");
-    timeTracker.style = `
+  timeTracker = document.createElement("div");
+  timeTracker.style = `
       text-align:left;
       border-style:solid;
       border-width:3px;
@@ -577,111 +580,111 @@ generateTime = () => {
       float:right;
       padding: 10px;
     `
-    $("#trackSelParent")[0].prepend(timeTracker);
-    $("#trackSelParent")[0].prepend(document.createElement("br"));
+  $("#trackSelParent")[0].prepend(timeTracker);
+  $("#trackSelParent")[0].prepend(document.createElement("br"));
 
-    // Create a new element to display the current position of the audio
-    var positionDisplay = document.createElement("gg");
-    positionDisplay.id = "position-display";
+  // Create a new element to display the current position of the audio
+  var positionDisplay = document.createElement("gg");
+  positionDisplay.id = "position-display";
 
-    // Create a new slider element to change the time
-    var timeSlider = document.createElement("input");
-    timeSlider.type = "range";
-    timeSlider.min = 0;
-    timeSlider.max = 1;
-    timeSlider.step = 0.001;
-    timeSlider.value = 0;
-    timeSlider.style.width = "200px";
-    timeSlider.id = "time-slider";
+  // Create a new slider element to change the time
+  var timeSlider = document.createElement("input");
+  timeSlider.type = "range";
+  timeSlider.min = 0;
+  timeSlider.max = 1;
+  timeSlider.step = 0.001;
+  timeSlider.value = 0;
+  timeSlider.style.width = "200px";
+  timeSlider.id = "time-slider";
 
-    var pausePlay = document.createElement("button");
-    pausePlay.id = "position-display";
-    pausePlay.innerHTML = "<b>Pause</b>"
-    pausePlay.style.width = "100%";
+  var pausePlay = document.createElement("button");
+  pausePlay.id = "position-display";
+  pausePlay.innerHTML = "<b>Pause</b>"
+  pausePlay.style.width = "100%";
 
 
-    pausePlay.addEventListener("click", event => {
-      event.preventDefault();
-      updatePositionDisplay();
-      let audio = document.getElementById("campaigntrailmusic");
-      if (audio.paused) {
-        audio.play();
-        event.target.innerHTML = "<b>Pause</b>";
-        return;
-      }
-      audio.pause();
-      event.target.innerHTML = "<b>Play</b>";
-      return;
-    })
-
-    var volumeLabel = document.createElement("gg");
-    volumeLabel.id = "volume-label";
-    volumeLabel.innerHTML = "<br><b>Volume: </b>"
-
-    var volumeSlider = document.createElement("input");
-    volumeSlider.type = "range";
-    volumeSlider.min = 0;
-    volumeSlider.max = 1;
-    volumeSlider.step = 0.001;
-    volumeSlider.value = 0;
-    volumeSlider.style.width = "200px";
-    volumeSlider.id = "volume-slider";
-
-    volumeSlider.value = audio.volume;
-
-    timeTracker.appendChild(pausePlay);
-    timeTracker.appendChild(document.createElement("br"));
-    timeTracker.appendChild(document.createElement("br"));
-    timeTracker.appendChild(positionDisplay);
-    timeTracker.appendChild(timeSlider);
-    timeTracker.appendChild(volumeLabel);
-    timeTracker.appendChild(volumeSlider);
-
+  pausePlay.addEventListener("click", event => {
+    event.preventDefault();
     updatePositionDisplay();
-
-    //for (let i = 0; i < 10; i++)
-    //timeTracker.append(document.createElement("br"));
-
-
-    // Function to update the position display
-    function updatePositionDisplay() {
-      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
-      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+    let audio = document.getElementById("campaigntrailmusic");
+    if (audio.paused) {
+      audio.play();
+      event.target.innerHTML = "<b>Pause</b>";
+      return;
     }
+    audio.pause();
+    event.target.innerHTML = "<b>Play</b>";
+    return;
+  })
 
-    // Function to change the time of the audio
-    function changeTime() {
-      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
-      audio.currentTime = timeSlider.value * audio.duration;
-    }
+  var volumeLabel = document.createElement("gg");
+  volumeLabel.id = "volume-label";
+  volumeLabel.innerHTML = "<br><b>Volume: </b>"
 
-    updateVolume = event => {
-      audio.volume = event.target.value;
-    }
-    
-    // Update the position display and slider every second
-    setInterval(updatePositionDisplay, 1000);
+  var volumeSlider = document.createElement("input");
+  volumeSlider.type = "range";
+  volumeSlider.min = 0;
+  volumeSlider.max = 1;
+  volumeSlider.step = 0.001;
+  volumeSlider.value = 0;
+  volumeSlider.style.width = "200px";
+  volumeSlider.id = "volume-slider";
 
-    // Listen for changes to the time slider and change the time of the audio
-    timeSlider.addEventListener("input", changeTime);
-    volumeSlider.addEventListener("input", updateVolume)
+  volumeSlider.value = audio.volume;
+
+  timeTracker.appendChild(pausePlay);
+  timeTracker.appendChild(document.createElement("br"));
+  timeTracker.appendChild(document.createElement("br"));
+  timeTracker.appendChild(positionDisplay);
+  timeTracker.appendChild(timeSlider);
+  timeTracker.appendChild(volumeLabel);
+  timeTracker.appendChild(volumeSlider);
+
+  updatePositionDisplay();
+
+  //for (let i = 0; i < 10; i++)
+  //timeTracker.append(document.createElement("br"));
+
+
+  // Function to update the position display
+  function updatePositionDisplay() {
+    positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+    timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+  }
+
+  // Function to change the time of the audio
+  function changeTime() {
+    positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+    audio.currentTime = timeSlider.value * audio.duration;
+  }
+
+  updateVolume = event => {
+    audio.volume = event.target.value;
+  }
+
+  // Update the position display and slider every second
+  setInterval(updatePositionDisplay, 1000);
+
+  // Listen for changes to the time slider and change the time of the audio
+  timeSlider.addEventListener("input", changeTime);
+  volumeSlider.addEventListener("input", updateVolume)
 }
 
 function newMusicPlayer() {
   trackSel = document.createElement("div");
   trackSel.id = "trackSelParent"
   let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#999999;float:right;">`
-  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+  z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>"
   for (i in soundtracks) {
     if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
-      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+      z += `<option value='` + soundtracks[i].name + `'>` + soundtracks[i].name + `</option>`
     }
   }
   z += `</select></b><br><br>`
   // <label><input type="radio" name="option" value="option1">Option 1</label><br>
   for (i in soundtracks[e.selectedSoundtrack].tracklist) {
     let a = soundtracks[e.selectedSoundtrack].tracklist[i]
-    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="` + i + `">` + a.name + `</label><br>`
     z += b
   }
   z += "</div><br><br>"
@@ -690,14 +693,14 @@ function newMusicPlayer() {
   // select correct song
 
   musicBox.appendChild(trackSel);
-  Array.from(document.getElementById("trackSel").children).filter(f=>{
+  Array.from(document.getElementById("trackSel").children).filter(f => {
     return f.tagName == "LABEL"
-  }).map(f=>f.children[0])[0].checked = true
+  }).map(f => f.children[0])[0].checked = true
 
   // set soundtrack changer
 
   soundtrackSelector = document.getElementById("selectSoundtrack")
-  soundtrackSelector.onchange = function() {
+  soundtrackSelector.onchange = function () {
     for (i in soundtracks) {
       if (soundtracks[i].name == soundtrackSelector.value) {
         e.selectedSoundtrack = i
@@ -711,7 +714,7 @@ function newMusicPlayer() {
   var matches = document.querySelectorAll('.trackSelector');
 
   for (match in matches) {
-    matches[match].onchange = function() {
+    matches[match].onchange = function () {
       audio = $("#campaigntrailmusic")[0];
       audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
       audio.currentTime = 0
@@ -721,13 +724,13 @@ function newMusicPlayer() {
   musicBox.children[2].loop = false
   musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
 
-  musicBox.children[2].onended = function() {
+  musicBox.children[2].onended = function () {
     console.log("next track")
     let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
-    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
-    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+    let newSel = clamp(selected + 1, soundtracks[e.selectedSoundtrack].tracklist.length - 1, 0)
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
       return f.tagName == "LABEL"
-    }).map(f=>f.children[0])
+    }).map(f => f.children[0])
     //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
     buttons[newSel].click()
   }
@@ -735,11 +738,11 @@ function newMusicPlayer() {
   for (w = 0; w < 7; w++) {
     document.getElementById("trackSelParent").appendChild(document.createElement("br"))
   }
-  
+
   generateTime();
 }
 
-clamp = function(a, max, min, overflow=true) {
+clamp = function (a, max, min, overflow = true) {
   if (overflow) {
     return a > max ? min : a < min ? max : a;
   }
@@ -782,7 +785,7 @@ var soundtracks = {
 newMusicPlayer()
 
 
-RecReading=true
+RecReading = true
 
 styling = document.createElement("style");
 document.head.appendChild(styling);
@@ -794,18 +797,18 @@ styling.innerHTML = `
 `
 
 let z = new MutationObserver((mutationsList, observer) => {
-    let runningMateSummary = document.querySelector("#running_mate_summary");
-    if (runningMateSummary) {
-        $("#running_mate_id_button").click();
-        observer.disconnect()
-    }
+  let runningMateSummary = document.querySelector("#running_mate_summary");
+  if (runningMateSummary) {
+    $("#running_mate_id_button").click();
+    observer.disconnect()
+  }
 });
 
 
-z.observe(document, { subtree: true, childList: true });        
+z.observe(document, { subtree: true, childList: true });
 
 HistHexcolour = ["#c11d1d", "#2b2bce", "#c9bd2a", "#1D8500"];
-HistName = ["King / Rockefeller", "Bush / Quayle", "Perot / Stockdale", "Other" ];
+HistName = ["King / Rockefeller", "Bush / Quayle", "Perot / Stockdale", "Other"];
 HistEV = [317, 221, 0, 0];
 HistPV = ["52,108,903", "51,900,049", "0", "417,706"];
 HistPVP = ["49.9%", "49.7%", "0.0%", "0.4%"];
